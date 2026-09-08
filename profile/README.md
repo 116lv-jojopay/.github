@@ -4,7 +4,7 @@
 
 **일반 상품 구매와 정기 구독을 지원하는 결제 중심 커머스 플랫폼**
 
-[Backend](https://github.com/116lv-jojopay/backend) · [Frontend](https://github.com/116lv-jojopay/frontend) · [Original Project](https://github.com/pcb2002/Commerce-payment-system-JoJoPay) · [116Lv](https://github.com/116Lv)
+[Backend](https://github.com/116lv-jojopay/backend) · [Original Project](https://github.com/pcb2002/Commerce-payment-system-JoJoPay) · [116Lv](https://github.com/116Lv)
 
 </div>
 
@@ -33,7 +33,7 @@ JoJoPay는 상품을 장바구니에 담아 구매하거나 정기 구독으로 
 
 ## 내가 맡은 역할
 
-**포인트 API, 환불 도메인, PortOne V2 인프라 클라이언트**를 담당했습니다. 결제 수단을 연결하는 것뿐 아니라 부분·전체 환불 시 어떤 금액과 포인트를 되돌려야 하는지, 외부 취소가 실패했을 때 어떤 상태를 남겨야 하는지를 구현했습니다. 관련 단위 테스트와 프론트엔드 구현에도 참여했습니다.
+**포인트 API, 환불 도메인, PortOne V2 인프라 클라이언트**를 담당했습니다. 결제 수단을 연결하는 것뿐 아니라 부분·전체 환불 시 어떤 금액과 포인트를 되돌려야 하는지, 외부 취소가 실패했을 때 어떤 상태를 남겨야 하는지를 구현했습니다. 정상 처리와 외부 API 실패 상황을 구분하는 단위 테스트도 작성했습니다.
 
 ### 포인트 잔액과 변경 이력을 함께 관리했습니다
 
@@ -81,7 +81,6 @@ Java 17 · Spring Boot · Spring Security · JPA · MySQL · PortOne V2 · Docke
 | 저장소 | 내용 |
 | --- | --- |
 | [backend](https://github.com/116lv-jojopay/backend) | 서버 코드, 테스트, 원본 이력과 실행 안내 |
-| [frontend](https://github.com/116lv-jojopay/frontend) | 서비스 화면, 클라이언트 코드와 실행 안내 |
 | [원본 프로젝트](https://github.com/pcb2002/Commerce-payment-system-JoJoPay) | 전체 기능, 설계 자료, 개선 전후와 팀 협업 기록 |
 
 ---
